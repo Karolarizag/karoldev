@@ -1,0 +1,119 @@
+{
+  "menu": [
+    {
+      "title": "Home",
+      "link": "#home"
+    },
+    {
+      "title": "Technologies",
+      "link": "#technologies"
+    },
+    {
+      "title": "Career",
+      "link": "#career"
+    },
+    {
+      "title": "Projects",
+      "link": "#projects"
+    },
+    {
+      "title": "Contact me",
+      "link": "#contactme"
+    }
+  ],
+  "home": {
+    "title": "KAROL ARIZA", 
+    "role": "FRONT END DEVELOPER",
+    "text": "lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  },
+  "technologies": {
+    "title": "SKILLS"
+  }, 
+  "career": [
+    {
+      "title": "JOB EXPERIENCE", 
+      "items": [
+        {
+          "company": "Epam Systems",
+          "role": "Front end Developer for OTT web and smartTV applications",
+          "time": "May 2023 - Currently"
+        },
+        {
+          "company": "Epam Systems",
+          "role": "Front end Developer for OTT web and smartTV applications",
+          "time": "May 2023 - Currently"
+        },
+        {
+          "company": "Epam Systems",
+          "role": "Front end Developer for OTT web and smartTV applications",
+          "time": "May 2023 - Currently"
+        }
+      ]
+    },
+    {
+      "title": "EDUCATION & CERTIFICATES",
+      "items":  [
+        {
+          "company": "Ilerna FP ",
+          "role": "CFGS ICC0 - Web Development",
+          "time": "Currently"
+        },
+        {
+          "company": "Ilerna FP ",
+          "role": "CFGS ICC0 - Web Development",
+          "time": "Currently"
+        },
+        {
+          "company": "Ilerna FP ",
+          "role": "CFGS ICC0 - Web Development",
+          "time": "Currently"
+        }
+      ]
+    }
+  ],
+  "projects": {
+    "title": "PROJECTS",
+    "items": [
+      {
+        "image": "",
+        "title": "MAP",
+        "finished": true,
+        "repository": "",
+        "link": ""
+      },
+      {
+        "image": "",
+        "title": "MAP",
+        "finished": true,
+        "repository": "",
+        "link": ""
+      },
+      {
+        "image": "",
+        "title": "MAP",
+        "finished": true,
+        "repository": "",
+        "link": ""
+      },
+      {
+        "image": "",
+        "title": "MAP",
+        "finished": false,
+        "repository": "",
+        "link": ""
+      },
+      {
+        "image": "",
+        "title": "MAP",
+        "finished": false,
+        "repository": "",
+        "link": ""
+      }
+    ]
+  },
+  "getintouch": {
+    "title": "GET IN TOUCH", 
+    "linkedin": "", 
+    "github": ""
+  }
+}
