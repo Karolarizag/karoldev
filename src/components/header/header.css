@@ -1,6 +1,42 @@
-.header {
+.header-bigscreen {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 2vw 15vw;
+}
+
+.menu-icon {
+  fill: var(--secondary-green);
+  position: fixed;
+  top: 5vw;
+  right: 5vw;
+}
+
+.header-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--transparent-black);
+}
+
+.close-icon {
+  fill: var(--secondary-green);
+  position: absolute;
+  right: 10vw;
+  top: 5vw;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+  justify-content: center;
+  align-items: center;
 }

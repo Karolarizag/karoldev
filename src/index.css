@@ -3,6 +3,7 @@
   --primary-purple: #4C034E;
   --secondary-green: #B1EFAC;
   --white: #fff;
+  --transparent-black: rgb(0,0,0,0.5);
 }
 
 * {
@@ -33,6 +34,9 @@ h2 {
 p, span, div {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+}
+
+img {
 }
 
 
