@@ -1,3 +1,146 @@
 .section-image {
   width: 100vw;
+  padding-top: 2vw;
 }
+
+.aboutme-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vw;
+
+  >div {
+    max-width: 30vw;
+  }
+
+  >img {
+    max-width: 20vw;
+    margin-top: -8vw;
+  }
+}
+
+.skills-section {
+  position: relative;
+
+  >h3 {
+    text-align: center;
+    padding-top: 5vw;
+  }
+
+  >img {
+    position: absolute;
+    top: 0;
+  }
+
+  .items-skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    max-width: 34vw;
+    margin: auto;
+    padding-top: 3vw;
+
+    >img {
+      padding: 1vw;
+      background-color: white;
+      width: 5vw;
+      border-radius: 5px;
+    }
+  }
+}
+
+  .career-section {
+    padding-top: 13vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+  }
+
+  .projects-section {
+    >h3 {
+      padding: 5vw 0;
+      text-align: center;
+    }
+    
+    .items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 0 10vw;
+    }
+  }
+
+  .contact-section {
+    background-color: var(--transparent-white);
+    padding: 4vw 10vw 10vw;
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    position: relative;
+
+    >img {
+      width: 20vw;
+      height: fit-content;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 20vw;;
+
+      >h3 {
+        padding-bottom: 2vw;
+        text-align: left;
+        width: 100%;
+      }
+      
+      >p {
+        text-align: left;
+        width: 100%;
+        padding-bottom: 5px;
+
+        &.text {
+          text-align: center;
+          padding: 1vw 0;
+        }
+      }
+
+      >input {
+        width: 100%;
+        margin-bottom: 1.5vw;
+        height: 2.8vw;
+        border: 1px solid #eee;
+        border-radius: 5px;
+      }
+
+      >button {
+        background-color: var(--pink);
+        padding: 0.5vw 1vw;
+        border: none;
+        border-radius: 5px;
+        >p {
+          font-weight: 500;
+          color: var(--primary-purple);
+        }
+      }
+
+      .icons {
+        display: flex;
+        gap: 1vw;
+
+        >img {
+          width: 3vw;
+        }
+      }
+    }
+
+    .section-image {
+      position: absolute;
+      bottom: -3vw;
+      width: 100%;
+    }
+  }

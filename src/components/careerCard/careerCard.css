@@ -1,0 +1,26 @@
+.career-card {
+  width: 40vw;
+
+  >h3 {
+    margin-bottom: 2vw;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0.3vw;
+    padding: 1vw 0 1vw 3vw;
+    border-left: 1px solid white;
+    position: relative;
+
+    .circle {
+      width: 1vw;
+      height: 1vw;
+      background-color: white;
+      border-radius: 100px;
+      position: absolute;
+      left: -0.5vw;
+    }
+  }
+}

@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
 :root {
   --primary-purple: #4C034E;
+  --transparent-purple: #4c034ea8;
   --secondary-green: #B1EFAC;
+  --pink:  #F3CBF3;
   --white: #fff;
+  --transparent-white: rgba(255, 255, 255, 0.5);
   --transparent-black: rgb(0,0,0,0.5);
 }
 
@@ -14,6 +17,8 @@
 body {
   background-color: var(--primary-purple);
   color: var(--white);
+  width: 100%;
+  padding-bottom: 5vw;
 }
 
 a {
@@ -21,22 +26,37 @@ a {
   text-decoration: none;
 }
 
-h1,h2,h3 {
+h1 {
   font-family: "Staatliches", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 4.25vw;
+  line-height: 4vw;
 }
 
 h2 {
   color: var(--secondary-green);
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-size: 2.8vw;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.25vw;
 }
 
 p, span, div {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  font-size: 1.25vw;
 }
 
 img {
+  max-width: 100%;
 }
 
 

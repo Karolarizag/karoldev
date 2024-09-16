@@ -1,0 +1,43 @@
+.project-card {
+  width: 20vw;
+
+  >img {
+    width: 20vw;
+    border-radius: 5px;
+  }
+
+  .title {
+    display: flex;
+    gap: 1vw;
+    margin: 1vw 0;
+
+    >div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0.5vw 1vw;
+      border-radius: 100px;
+      color: var(--primary-purple);
+      font-weight: 500;
+    }
+
+    .green {
+      background-color: lightgreen;
+    }
+  
+    .red {
+      background-color: lightcoral;
+    }
+
+  }
+  
+  .icons {
+    display: flex;
+    gap: 1vw;
+
+    >img {
+      width: 3vw;
+      cursor: pointer;
+    }
+  }
+}

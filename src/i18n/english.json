@@ -27,7 +27,8 @@
     "text": "lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
   },
   "technologies": {
-    "title": "SKILLS"
+    "title": "SKILLS",
+    "skills": ["angular", "graphql", "js", "mongodb", "next", "nuxt", "react", "redux", "rxjs", "tizen", "typescript", "vue"]
   }, 
   "career": [
     {
@@ -75,35 +76,35 @@
     "title": "PROJECTS",
     "items": [
       {
-        "image": "",
+        "image": "/project.png",
         "title": "MAP",
         "finished": true,
         "repository": "",
         "link": ""
       },
       {
-        "image": "",
+        "image": "/project.png",
         "title": "MAP",
         "finished": true,
         "repository": "",
         "link": ""
       },
       {
-        "image": "",
+        "image": "/project.png",
         "title": "MAP",
         "finished": true,
         "repository": "",
         "link": ""
       },
       {
-        "image": "",
+        "image": "/project.png",
         "title": "MAP",
         "finished": false,
         "repository": "",
         "link": ""
       },
       {
-        "image": "",
+        "image": "/project.png",
         "title": "MAP",
         "finished": false,
         "repository": "",
@@ -113,6 +114,11 @@
   },
   "getintouch": {
     "title": "GET IN TOUCH", 
+    "name": "Name", 
+    "email": "Email", 
+    "message": "Message",
+    "cta": "SEND",
+    "text": "or",
     "linkedin": "", 
     "github": ""
   }
