@@ -6,6 +6,8 @@ import { CareerCard } from './components/careerCard';
 import { ProjectCard } from './components/projectCard';
 
 export const App = () => {
+  console.log('%cContact me here: https://www.linkedin.com/in/karolarizag/', 'color: #fff; background: #a175ed; padding: 5px 10px; border-radius: 5px;')
+  console.log('%cMade with React.', 'color: #295873')
 
   const renderSkillsImages = () => {
     return json.technologies.skills.map((skill, key) => {
@@ -56,8 +58,8 @@ export const App = () => {
 
     <section className="contact-section">
       <img src="/contactme.png" alt="contact" />
-      <div className="form">
-        <h3>{json.getintouch.title}</h3>
+      {/* {/* <div className="form">
+        {/* <h3>{json.getintouch.title}</h3>
         <p>{json.getintouch.name}</p>
         <input type="Name" />
         <p>{json.getintouch.email}</p>
@@ -65,12 +67,12 @@ export const App = () => {
         <p>{json.getintouch.message}</p>
         <input type="Message" />
         <button><p>{json.getintouch.cta}</p></button>
-        <p className="text">{json.getintouch.text}</p>
+        <p className="text">{json.getintouch.text}</p> */}
         <div className="icons">
-          <img src="/github.png" alt="github" />
-          <img src="/linkedin.png" alt="linkedin" />
+          <img src="/github.png" alt="github" onClick={() => window.open("https://github.com/Karolarizag", "_blank")} />
+          <img src="/linkedin.png" alt="linkedin" onClick={() => window.open("https://www.linkedin.com/in/karolarizag/", "_blank")} />
         </div>
-      </div>
+      {/* </div> */}
     <img src="/section-4.png" alt="section1" className="section-image"/>
     </section>
   </>

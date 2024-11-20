@@ -14,11 +14,11 @@ interface careerProps {
 export const CareerCard = ({career}:{career: careerProps}) => {
 
   const renderItems = () => {
-    return career.items.map((item) => {
-      return <div className="items">
-        <p>{item.company}</p>
-        <p>{item.role}</p>
-        <p>{item.time}</p>
+    return career.items.map((item, idx) => {
+      return <div className="items" key={idx}>
+        <p className="company">{item.company}</p>
+        <p className="text">{item.role}</p>
+        <p className="text">{item.time}</p>
         <div className="circle"></div>
       </div>
     })

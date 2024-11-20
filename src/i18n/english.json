@@ -36,18 +36,18 @@
       "items": [
         {
           "company": "Epam Systems",
-          "role": "Front end Developer for OTT web and smartTV applications",
+          "role": "Front end Developer for OTT web and SmartTV applications",
           "time": "May 2023 - Currently"
         },
         {
-          "company": "Epam Systems",
-          "role": "Front end Developer for OTT web and smartTV applications",
-          "time": "May 2023 - Currently"
+          "company": "2Coders Studio",
+          "role": "Front end Developer for OTT web and SmartTV applications",
+          "time": "November 2022 - May 2023"
         },
         {
-          "company": "Epam Systems",
-          "role": "Front end Developer for OTT web and smartTV applications",
-          "time": "May 2023 - Currently"
+          "company": "Reboot Academy",
+          "role": "Front end Developer and Marketing department",
+          "time": "December 2021 - November 2022"
         }
       ]
     },
@@ -60,14 +60,19 @@
           "time": "Currently"
         },
         {
-          "company": "Ilerna FP ",
-          "role": "CFGS ICC0 - Web Development",
-          "time": "Currently"
+          "company": "Femxa",
+          "role": "Web development - eCommerce",
+          "time": "2023"
         },
         {
-          "company": "Ilerna FP ",
-          "role": "CFGS ICC0 - Web Development",
-          "time": "Currently"
+          "company": "EF Set",
+          "role": "English level C1",
+          "time": "2022"
+        },
+        {
+          "company": "Reboot Academy",
+          "role": "Full-Stack development bootcamp",
+          "time": "2021"
         }
       ]
     }
@@ -76,39 +81,25 @@
     "title": "PROJECTS",
     "items": [
       {
-        "image": "/project.png",
-        "title": "MAP",
+        "image": "/project-giphy.jpg",
+        "title": "Giphyy",
         "finished": true,
-        "repository": "",
-        "link": ""
+        "repository": "https://github.com/Karolarizag/Giphyy",
+        "link": "https://giphyy.netlify.app/"
       },
       {
-        "image": "/project.png",
-        "title": "MAP",
+        "image": "/project-randm.jpg",
+        "title": "Rick&Morty",
         "finished": true,
-        "repository": "",
-        "link": ""
+        "repository": "https://github.com/Karolarizag/Rick-Morty",
+        "link": "https://rick-and-morty-karolariza.netlify.app/"
       },
       {
-        "image": "/project.png",
-        "title": "MAP",
-        "finished": true,
-        "repository": "",
-        "link": ""
-      },
-      {
-        "image": "/project.png",
-        "title": "MAP",
+        "image": "/project-moviesapp.jpg",
+        "title": "Movies App",
         "finished": false,
-        "repository": "",
-        "link": ""
-      },
-      {
-        "image": "/project.png",
-        "title": "MAP",
-        "finished": false,
-        "repository": "",
-        "link": ""
+        "repository": "https://github.com/Karolarizag/MoviesApp",
+        "link": "https://moviesapp-by-karol-ariza.netlify.app/"
       }
     ]
   },

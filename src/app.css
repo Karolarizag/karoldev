@@ -85,6 +85,16 @@
       height: fit-content;
     }
 
+    .icons {
+      display: flex;
+      gap: 1vw;
+
+      >img {
+        cursor: pointer;
+        width: 8vw;
+      }
+    }
+
     .form {
       display: flex;
       flex-direction: column;
@@ -125,15 +135,6 @@
         >p {
           font-weight: 500;
           color: var(--primary-purple);
-        }
-      }
-
-      .icons {
-        display: flex;
-        gap: 1vw;
-
-        >img {
-          width: 3vw;
         }
       }
     }

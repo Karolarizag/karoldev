@@ -16,8 +16,8 @@ export const ProjectCard = ({project}: {project: projectProps}) => {
       <div className={project.finished ? "green" : "red"}>{project.finished ? "Finished" : "In progress"}</div>
     </div>
     <div className="icons">
-      <img src="/github-findme.png" alt="github" />
-      <img src="/link-findme.png" alt="link" />
+      <img src="/github-findme.png" alt="github" onClick={() => window.open(project.repository, "_blank")} />
+      <img src="/link-findme.png" alt="link" onClick={() => window.open(project.link, "_blank")} />
     </div>
   </div>
 }
