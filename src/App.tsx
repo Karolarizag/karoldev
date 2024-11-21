@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import "./app.css"
 import json from "./i18n/english.json"
 import { Header } from './components/header';
@@ -9,6 +9,14 @@ export const App = () => {
   console.log('%cContact me here: https://www.linkedin.com/in/karolarizag/', 'color: #fff; background: #a175ed; padding: 5px 10px; border-radius: 5px;')
   console.log('%cMade with React.', 'color: #295873')
 
+  const aboutMeSection = useRef(null)
+  const skillsSection = useRef(null)
+  const careerSection = useRef(null)
+  const projectsSection = useRef(null)
+  const contactSection = useRef(null)
+
+  const sections: React.MutableRefObject<null>[] = [aboutMeSection, skillsSection, careerSection, projectsSection, contactSection]
+
   const renderSkillsImages = () => {
     return json.technologies.skills.map((skill, key) => {
       return <img src={`/${skill}.png`} alt="skill" key={key} />
@@ -16,10 +24,10 @@ export const App = () => {
   }
 
   return <>
-    <Header />
+    <Header sections={sections} />
 
     <img src="/section-1.png" alt="section1" className='section-image'/>
-    <section className="aboutme-section">
+    <section className="aboutme-section" ref={aboutMeSection}>
       <div className="section-1-content">
         <h1>{json.home.title}</h1>
         <h2>{json.home.role}</h2>
@@ -28,7 +36,7 @@ export const App = () => {
       <img src="/aboutme.png" alt="aboutme" />
     </section>
 
-    <section className="skills-section">
+    <section className="skills-section" ref={skillsSection}>
       <img src="/section-2.png" alt="section1" className="section-image"/>
       <h3>{json.technologies.title}</h3>
       <div className="items-skills-section">
@@ -36,7 +44,7 @@ export const App = () => {
       </div>
     </section>
 
-    <section className="career-section">
+    <section className="career-section" ref={careerSection}>
       {
         json.career.map((career, key) => {
           return <CareerCard career={career} key={key} />
@@ -45,7 +53,7 @@ export const App = () => {
     </section>
 
     <img src="/section-3.png" alt="section1" className='section-image'/>
-    <section className="projects-section">
+    <section className="projects-section" ref={projectsSection}>
       <h3>{json.projects.title}</h3>
       <div className="items">
         {
@@ -56,7 +64,7 @@ export const App = () => {
       </div>
     </section>
 
-    <section className="contact-section">
+    <section className="contact-section" ref={contactSection}>
       <img src="/contactme.png" alt="contact" />
       {/* {/* <div className="form">
         {/* <h3>{json.getintouch.title}</h3>
