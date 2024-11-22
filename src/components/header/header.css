@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 2vw 15vw;
+  padding: 1vw 15vw 0.5vw;
   background-color: var(--transparent-purple);
   z-index: 1;
   box-shadow: 0px 0px 5px black;
