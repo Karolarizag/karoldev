@@ -2,7 +2,7 @@ import "./header.css"
 import json from "../../i18n/english.json"
 import { checkResponsive } from "../../services/checkResponsive"
 import { Close, Menu } from "../../utils/icons"
-import { ReactNode, useState } from "react"
+import { useState } from "react"
 
 export const Header = ({sections}:{sections: React.MutableRefObject<HTMLElement | null>[]}) => {
   const [openMenu, setOpenMenu] = useState(false)
